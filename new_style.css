@@ -1,0 +1,11 @@
+/* Set the Image in HTML Doc with absolute position with z-index non-negitive value*/
+img {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 1;
+}
+/* Set the Paragraph fonts in italic.*/
+p{
+    font-style: italic;
+}

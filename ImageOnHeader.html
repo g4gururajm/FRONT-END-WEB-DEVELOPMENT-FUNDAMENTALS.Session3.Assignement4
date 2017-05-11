@@ -1,0 +1,65 @@
+<!-- declaration refers to a DTD-->
+<!DOCTYPE html>
+
+<!-- HTML tag with English language attributes-->
+<html lang="en">
+
+<!--Head element-->
+<head>
+	<!-- The <meta> tag provides metadata about the HTML and Specify the character encoding for the HTML -->
+	<meta charset="UTF-8">
+	
+	<!-- Define a description of your web page -->
+	<meta name="description" content="Free Web tutorials">
+	
+	<!--  Define keywords for search engines -->
+	<meta name="keywords" content="HTML,CSS,XML, XHTML,JavaScript">
+	
+	<!-- Define the author of a page -->
+	<meta name="author" content="Gururaj">
+	
+	<!-- Setting the viewport to make your website look good on all devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- It defines the title of the document-->
+	<title>HTML CSS</title>
+	
+	<!-- External styles 'new_style.css' are linked with this html doc -->
+	<link rel='stylesheet' type='text/css' href='new_style.css'>
+	
+	<!-- The internal/Embedded <style> tag is used to define style information for an HTML document-->
+	<style>
+	/* internal paragraph style defines padding of the DOC Internal style changes the fonts-family of that paragraph */
+	p {
+	/*Internal style changes the fonts size for paragraph  */
+		padding: 20px 20px 20px 20px;
+		font-family: "Times New Roman";
+		font-size: 25px;
+		
+	}
+	/* Styling Header margin of h2 in HTML DOC */
+	h2 {
+		margin: 50px 0 0 0;
+	}
+	<!-- Style sheet close -->
+	</style>
+<!-- Closing the head of the HTML doc-->
+</head>
+<!-- The <body> tag defines the document's body -->
+<body>
+	<!-- Header1 with Inline style for text alignment with color-->
+	<h1>This is a Heading, This is a First Heading</h1>
+	<!-- The <img> tag defines an image in an HTML page with inline style specifiying width and height by using external styles z-index of 1 putting image above the headetr h1 -->
+	<img src="myimage.jpg" width="200px" height="130px">
+	<!-- The <br> tag inserts a single break.-->
+	<br>
+	<!-- The seconder header with embedded styles by moving 50px margin -->
+	<h2>This is my sencond header </h2>
+	<!-- Specifies the alignment of the text within a paragraph -->
+	<p>This is the paragraph, my first paragraph.</p>
+	<!-- Specifies the alignment of the text within a paragraph -->
+	<p>Because the image has a z-index of 1, it will be placed above the text.</p>
+<!-- Body close -->
+</body>
+<!-- HTML close-->
+</html>
